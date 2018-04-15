@@ -20,6 +20,7 @@ import { routing } from './app.routing';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SidemenuComponent } from './common/sidemenu/sidemenu.component';
 import { HeaderComponent } from './common/header/header.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -29,6 +30,7 @@ import { HeaderComponent } from './common/header/header.component';
     DashboardComponent,
     SidemenuComponent,
     HeaderComponent,
+    LoginComponent,
   ],
   imports: [
     HttpModule,
@@ -36,8 +38,8 @@ import { HeaderComponent } from './common/header/header.component';
     FormsModule,
     ReactiveFormsModule,
     routing,
-    TruncatePipe,
-    DataFilterPipe,
+    // TruncatePipe,
+    // DataFilterPipe,
   ],
   providers: [
     ApiService,
